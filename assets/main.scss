@@ -1,0 +1,33 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import 'modern-resume-theme';
+
+$alt-color: #666603;
+
+td {
+  font-size: 1.5em;
+}
+
+.tech-stack-logos-w {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+  padding: 1em;
+  color: $alt-color;
+  background: #f6f6f6;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 1em 0;
+
+  hr {
+    margin: 0px;
+  }
+}
+
+mark {
+  padding: 2px 6px;
+  font-size: 90%;
+  background-color: $alt-color;
+}

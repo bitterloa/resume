@@ -1,0 +1,235 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+favicon: assets/images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Kamal Hood
+title: Chief Technology Officer, Oakland, CA
+email: cto@kamal.tech
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  bitterloa
+linkedin_username: kamal-hood
+stackoverflow_username: "580419"
+# twitter_username: jekyllrb
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Website
+  icon: fas fa-globe
+  url: https://kamal.tech
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: Chief Technology Officer
+about_profile_image: assets/images/khood-professional-avatar-low-res.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Expert full stack developer, team leader and project manager with over 20 years experience creating SaaS and business analytics apps. My passion is delivering elegant, simple solutions with great UI design. Known as a decisive leader providing coaching, guidance, and training to elevate employees to their highest potential. Able to translate creative vision into a functional web experience that engages customers while producing record profitability.
+
+  <br>
+
+  #### Core Competencies
+
+  ---
+
+  _Preferred Stack_:<br>
+  <mark>Ruby on Rails</mark>, <mark>Vue.js</mark>, <mark>React.js</mark>, <mark>AWS</mark>, <mark>Docker</mark>, <mark>ES6</mark>, <mark>Stimulus.js</mark>, <mark>Nginx</mark>, <mark>Redis</mark>, <mark>Elasticsearch</mark>
+
+  _API Integrations_:<br>
+  Stripe, Braintree, Slack, Google Suite (Analytics, Adwords, Maps), DocuSign, Segment, Pipedrive
+
+  <div class="tech-stack-logos-w">
+    <i class="far fa-gem" title="Ruby on Rails"></i>
+    <i class="fab fa-vuejs" title="Vue.js"></i>
+    <i class="fab fa-react" title="React.js"></i>
+    <i class="fab fa-js-square" title="Javascript ES6"></i>
+    <i class="fab fa-aws" title="Amazon AWS"></i>
+    <i class="fab fa-docker" title="Docker"></i>
+    <i class="fab fa-google" title="Google Analytics, Adwords, Maps"></i>
+    <i class="fab fa-stripe" title="Stripe API"></i>
+    <i class="fab fa-slack" title="Slack API"></i>
+  </div>
+
+  | Full Stack Development | JavaScript, TypeScript, ES6 |
+  | DevOps, AWS Cloud | Responsive Design |
+  | Software as a Service (SaaS) | Product Development |
+  | Frontend Development | SEO, Google Analytics, Maps |
+  | UI/UX, CSS, JS, JSX | Webpack, Vue CLI |
+  | Vue, React, Stimulus | Team Building & Training |
+  | Search Engine Optimization | Mathematical Modeling |
+  | Budgetary Oversight / P&L | Stripe, Braintree, Slack API |
+
+# * _Preferred Stack:_ <mark>Ruby on Rails</mark>, <mark>Vue.js</mark>, <mark>React.js</mark>, <mark>AWS</mark>, <mark>Docker</mark>, <mark>ES6</mark>, <mark>Stimulus.js</mark>, <mark>Nginx</mark>, <mark>Redis</mark>, <mark>Elasticsearch</mark>
+# * _API Integrations:_ Stripe, Braintree, Slack, Google Suite (Analytics, Adwords, Maps), Segment, Pipedrive
+
+
+# Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+# You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#   - Lists
+#   - Tables
+#   - <a href="google.com">Links</a>
+#   - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+content:
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: University of California at Berkeley
+        # sub_title: Bachelor of Science, Electrical Engineering and Computer Science
+        # caption: Minor, Dramatic Arts, 1999
+        # quote: >
+        #   Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          **Bachelor of Science, Electrical Engineering and Computer Science**
+
+          **Minor, Dramatic Arts, 1999**
+
+  # - title: Core Competencies # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: Project name
+  #       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       link_text: Link Text
+  #       additional_links:
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       quote: >
+  #         Short overview of the project (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description about the work on/with the project
+
+  - title: Work Experience
+    layout: list
+    content:
+      - layout: left
+        title: Groupsite.com
+        sub_title: Chief Technology Officer
+        caption: Palo Alto, CA | 2017 - present
+        link: https://groupsite.com
+        # quote: >
+        #   SaaS Collaboration Community App
+        description: | # this will include new lines to allow paragraphs
+          Groupsite is an established SaaS collaboration application with thousands of paying customers. I was the Chief Architect leading a talented team of developers, UI/UX designers, DevOps and marketing specialists from concept to a successful launch of a new app.
+
+          * _Saved over 30% in web hosting and DevOps costs_ after migrating from decades-old cloud services to new Amazon AWS architecture (EC2, Docker, Redis, Nginx, ELB, SES, RDS)
+          * _Complete rebranding, marketing refresh, upgrade and migration_ of all front and backend systems
+          * _Dramatic increase in target market traffic_, keyword search and position with SEO Optimization and UTM Tracking
+          * Migrated Ruby on Rails from v1 to v5.2. _Complete rewrite of the aging codebase using a highly vetted stack._ Frontend UI overhaul using Vue 3, Stimulus, ES6 Javascript, Rails, Webpack.
+
+      - layout: left
+        title: Inheritance Funding Company
+        sub_title: Tech Lead, App Developer
+        caption: San Francisco, CA | 2006 – 2019
+        link: https://inheritancefunding.com
+        description: | # this will include new lines to allow paragraphs
+          I managed all technical projects for IFC including app development, Systems Administration, networking, DevOps and security. My position transitioned into full time development of their in-house financial CRM.
+
+          * Built and launched core CRM app used by all employees daily, responsible for managing customers and _processing over $20 million annual revenue._ (Angular JS, Ruby on Rails, Docker, React)
+          * _Oversaw purchasing of over $100k in hardware and software licensing._ Secured low cost, long term vendor contracts.
+          * _Doubled the efficiency of customer pipeline_ with custom DocuSign API integration for eSignatures
+          * _Live incoming sales leads feed using Google Adwords API_ integration and web hooks. These new customer leads were then added to the pipeline and converted into deals.
+          * _Advanced Business Analytics dashboards and reports_ using minimalist design. Complex financial analysis, mathematical modeling and projections. (Accrual, Deferred Gains, Assignments Receivable, etc.)
+
+      - layout: left
+        title: The Right Move Group
+        sub_title: Tech Lead, App Developer
+        caption: San Francisco, CA | 2006 – 2019
+        link: https://therightmovegroup.com
+        description: | # this will include new lines to allow paragraphs
+          I managed all technical needs for TRMG including transitioning them from a legacy in-house database to a publicly available web application for a dramatic increase in efficiency and communications between customers and mobile employees in the field.
+
+          * _2x - 3x increase in business after app launch._ Increased efficiency allowing guides in-the-field to submit reports and timesheets. Publicly available app allowed market expansion into new states and territories.
+          * Primary business app used for scheduling thousands of tours, track millions in revenue, manage timesheets, send template emails and invoice employees. (Angular JS, Ruby on Rails, Docker)
+
+      - layout: left
+        title: New Remedies
+        sub_title: IT Manager, App Developer, Systems Analyst
+        caption: Oakland, CA | 2002 - 2006
+        description: | # this will include new lines to allow paragraphs
+          Chief Architect, Tech Lead and developer of custom Process Manufacturing Application and UI. The app tracks product from its point of purchase through its manufacturing, packaging and distribution stages.
+
+          * _Processed over $50 million dollars of bulk product_, with security checks and employee productivity tracking.
+          * _Inventory tracking over $30 million in annual sales._ Deployed and maintained Microsoft Retail Management System for 7 storefronts.
+          * _Created custom Membership CRM with ID card printing_ for the Green Medicine Group. ID cards used scannable barcodes to protect and identify over 25,000 members.
+          * Hiring and management of employees and consultants
+          * Visualized, designed and implemented a new buying, weighing, inventory and sales business process.
+          * Purchasing of new hardware/software solutions and ongoing support. In charge of network security, integrity and backup policies.
+          * Established key business contracts with custom software developers, VARs and credit card merchant banks. Trained employees and managers in system use and policy.
+
+      # - layout: left
+      #   title: Groupsite
+      #   sub_title: Chief
+      #   caption: 2017
+      #   # link: https://groupsite.com
+      #   description: | # this will include new lines to allow paragraphs
+
+
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+remote_theme: sproogen/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
